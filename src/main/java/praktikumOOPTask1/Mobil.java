@@ -1,7 +1,15 @@
 package praktikumOOPTask1;
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ */
+
+/**
+ *
+ * @author Radit
+ */
 
 public class Mobil {
-
     private String nama;
     private String warna;
     private String tipeMobil;
@@ -17,7 +25,6 @@ public class Mobil {
     }
 
     public void infoMobil() {
-
         System.out.println("Nama Mobil : " + this.nama);
         System.out.println("Warna Mobil : " + this.warna);
         System.out.println("Tipe Mobil : " + this.tipeMobil);

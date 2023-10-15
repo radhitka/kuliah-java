@@ -1,5 +1,15 @@
 package praktikumOOPTask1;
 
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ */
+
+/**
+ *
+ * @author Radit
+ */
+
 public class TestTugas2 {
     public static void main(String[] args) {
         Mobil mobil1 = new Mobil("Toyota", "Biru", "minibus", 2000, 7);
