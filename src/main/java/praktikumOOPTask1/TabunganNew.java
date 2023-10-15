@@ -10,7 +10,7 @@ package praktikumOOPTask1;
  * @author Radit
  */
 public class TabunganNew {
-    public int saldo;
+    private int saldo;
 
     public TabunganNew(int intsaldo) {
         this.saldo = intsaldo;
@@ -25,13 +25,13 @@ public class TabunganNew {
     }
 
     public boolean ambilUang(int jumlah) {
-        
+
         boolean validateSaldo = jumlah > this.saldo;
-        
+
         if (validateSaldo) {
             return false;
         }
-        
+
         this.saldo = this.saldo - jumlah;
 
         return true;

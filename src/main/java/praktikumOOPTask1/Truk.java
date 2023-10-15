@@ -9,30 +9,30 @@ package praktikumOOPTask1;
  * @author Radit
  */
 public class Truk {
-    public double muatan;
-    public double muatanmax;
-    
-    public Truk(double beratmax){
+    private double muatan;
+    private double muatanmax;
+
+    public Truk(double beratmax) {
         this.muatanmax = beratmax;
     }
-    
-    public double getMuatan(){
+
+    public double getMuatan() {
         return this.muatan;
     }
-    
-    public double getMuatanMax(){
+
+    public double getMuatanMax() {
         return this.muatanmax;
     }
-    
-    public void tambahMuatan(double berat){
-        
+
+    public void tambahMuatan(double berat) {
+
         double checkMuatan = this.muatan + berat;
-        if (checkMuatan >= this.muatanmax ) {
+        if (checkMuatan >= this.muatanmax) {
             return;
         }
-        
+
         this.muatan = checkMuatan;
-        
+
         return;
     }
 }
