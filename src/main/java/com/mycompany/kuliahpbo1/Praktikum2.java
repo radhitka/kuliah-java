@@ -163,6 +163,6 @@ public class Praktikum2 {
         }
 
         System.out.println("Jumlah bilangan Genap :" + bilangGenap);
-        System.out.println("Jumlah bilangan Genap :" + bilangGanjil);
+        System.out.println("Jumlah bilangan Ganjil :" + bilangGanjil);
     }
 }
