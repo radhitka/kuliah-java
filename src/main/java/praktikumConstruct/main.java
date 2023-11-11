@@ -8,25 +8,25 @@ package praktikumConstruct;
  *
  * @author Radit
  */
-public class main {
-    
+public class Main {
+
     public static void main(String[] args) {
         Manusia man1 = new Manusia();
         man1.setNama("Radit");
         man1.setUmur(19);
         man1.cetak();
-        
+
         System.out.println("========");
-        
+
         Manusia man2 = new Manusia("Radhitka");
         man2.setUmur(17);
         man2.cetak();
-        
+
         System.out.println("========");
-        
+
         Manusia man3 = new Manusia("Radhitka Adha", 18);
         man3.cetak();
-        
+
         System.out.println("========");
-    } 
+    }
 }
